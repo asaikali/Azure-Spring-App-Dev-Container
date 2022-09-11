@@ -1,7 +1,7 @@
 // For format details, see https://aka.ms/devcontainer.json. For config options, see the README at:
 // https://github.com/microsoft/vscode-dev-containers/tree/v0.245.2/containers/ubuntu
 {
-	"name": "Azure-Spring-Apps",
+	"name": "acme-fitness",
 	"build": {
 		"dockerfile": "Dockerfile",
 		// Update 'VARIANT' to pick an Ubuntu version: jammy / ubuntu-22.04, focal / ubuntu-20.04, bionic /ubuntu-18.04
@@ -19,17 +19,13 @@
 	"remoteUser": "vscode",
 	"features": {
 		"azure-cli": "latest",
-		// "docker-from-docker": "latest",
-		// "terraform": "latest",
-		// "git": "latest",
-		// "git-lfs": "latest",
-		// "github-cli": "latest",
-		// "node": "lts",
-		// "python": "latest",
-		// "golang": "latest",
-		// "java": "11",
-		// "maven": "latest",
+		"docker-from-docker": "latest",
+		"git": "latest",
+		"github-cli": "latest",
+		"node": "lts",
+		"python": "latest",
+		"java": "11",
 		// "gradle": "latest",
-		// "dotnet": "6.0"
+		 "dotnet": "6.0"
 	}
 }
