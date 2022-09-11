@@ -13,23 +13,23 @@
 	// "forwardPorts": [],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	"postCreateCommand": "az extension add --name spring",
+	"onCreateCommand": "az extension add --name spring",
 
 	// Comment out to connect as root instead. More info: https://aka.ms/vscode-remote/containers/non-root.
 	"remoteUser": "vscode",
 	"features": {
 		"azure-cli": "latest",
-		"docker-from-docker": "latest",
-		"terraform": "latest",
-		"git": "latest",
-		"git-lfs": "latest",
-		"github-cli": "latest",
-		"node": "lts",
-		"python": "latest",
-		"golang": "latest",
-		"java": "11",
-		"maven": "latest",
-		"gradle": "latest",
-		"dotnet": "6.0"
+		// "docker-from-docker": "latest",
+		// "terraform": "latest",
+		// "git": "latest",
+		// "git-lfs": "latest",
+		// "github-cli": "latest",
+		// "node": "lts",
+		// "python": "latest",
+		// "golang": "latest",
+		// "java": "11",
+		// "maven": "latest",
+		// "gradle": "latest",
+		// "dotnet": "6.0"
 	}
 }
